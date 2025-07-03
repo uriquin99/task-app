@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .page {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+
+  .page h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+
+  #myinput {
+    width: 70%;
+    padding: 0.6rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    font-size: 1rem;
+  }
+  #myinput:focus {
+    border-color: #5c9ded;
+  }
+  
+  #mybutton {
+    padding: 0.6rem 1rem;
+    border: none;
+    background: #5c9ded;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+    transition: background 0.2s;
+  }
+  #mybutton:hover {
+    background: #4a8cd2;
+  }
+  
+
+  #mytask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fafafa;
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  #mytaskText {
+    flex: 1;
+    color: #333;
+    font-size: 1rem;
+  }
+  #mytaskDelete {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  #mytaskDelete:hover {
+    background: #c0392b;
+  }
+  #mytaskDelete i {
+    pointer-events: none;
+  }
+  
+  body > p {
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
